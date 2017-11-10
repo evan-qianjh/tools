@@ -10,7 +10,13 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>tools-network-proxy</module>
+        <module>tool-network-nat</module>
     </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <dependency>

@@ -1,6 +1,6 @@
-package com.qianjh.tools.networkproxy;
+package com.qianjh.tools.network.proxy;
 
-import org.apache.commons.lang3.concurrent.BasicThreadFactory;
+import com.qianjh.tools.network.proxy.impl.ProxyTask;
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -8,8 +8,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ThreadPoolExecutor;
 
 public class Main {
     static final int listenPort = 9999;

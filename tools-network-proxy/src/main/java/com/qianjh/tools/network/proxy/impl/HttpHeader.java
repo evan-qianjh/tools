@@ -1,4 +1,4 @@
-package com.qianjh.tools.networkproxy;
+package com.qianjh.tools.network.proxy.impl;
 
 import lombok.Data;
 
