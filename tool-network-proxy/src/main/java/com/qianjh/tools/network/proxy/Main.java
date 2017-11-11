@@ -16,7 +16,6 @@ public class Main {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
         ServerSocket serverSocket = new ServerSocket(listenPort);
         final ExecutorService tpe = Executors.newCachedThreadPool();
-//        ScheduledExecutorService executor = new ScheduledExecutorService(1, new BasicThreadFactory.Builder().namingPattern("").daemon(true).build());
 
         System.out.println("Proxy Server Start At " + sdf.format(new Date()));
         System.out.println("listening port:" + listenPort + "……");
